@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Setores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <table id="setorTable">
+                <thead>
+                    <tr>
+                        <th>Setor</th>
+                        <th>Ação</th>
+                        <th>Tem LB?</th>
+                        <th>Tem UB?</th>
+                        <th>Sem rastreabilidade?</th>
+                        <th>Sem Etiqueta?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sectores and actions will be dynamically generated here -->
+                </tbody>
+            </table>
+        </div>
+        <button id="exportBtn">Exportar Estatísticas</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
